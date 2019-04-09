@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+    outline: none;
+}
+body {
+    font-size: 14px;
+    font-family:Arial,Helvetica,sans-serif;
+    color: #444
+}
+#cont {
+    width:max-content;
+    height: max-content;
+    padding: 0px 3px;
+    text-align: center;
+}
+#menu {
+    display: none;
+}
+#show {
+    text-align: center;
+}
+.my-btn {
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    color: #233;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: all 0.1s;
+}
+.my-input {
+    width: 79.33px;
+    box-sizing: border-box;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    white-space: nowrap;
+    color: #233;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: all 0.1s;
+}
+.my-little-btn {
+    padding: 3px 6px;
+    font-size: 11px;
+    width: 25px;
+    height: 25px;
+}
+.my-btn:hover {
+    color: #233;
+    background-color: #eee;
+}
+.artist {
+    font-size: 12px;
+    color: #666;
+}
